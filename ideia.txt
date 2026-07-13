@@ -1,0 +1,36 @@
+Estrutura básica
+1. Canvas HTML
+
+Crie um <canvas> no HTML para desenhar os elementos do jogo.
+
+Defina largura e altura fixas (ex: 800x600).
+
+2. Loop do jogo
+
+Use requestAnimationFrame para atualizar a tela continuamente.
+
+Cada frame deve: limpar a tela, desenhar os elementos e atualizar posições.
+
+3. Nave do jogador
+
+Um retângulo ou sprite simples controlado pelas teclas ArrowLeft e ArrowRight.
+
+Pode disparar projéteis com Space.
+
+4. Inimigos
+
+Uma matriz de inimigos que se movem lateralmente e descem gradualmente.
+
+Cada inimigo pode ser representado por um retângulo ou imagem.
+
+5. Colisões
+
+Verifique se os projéteis atingem os inimigos.
+
+Remova inimigos atingidos e projéteis usados.
+
+6. Pontuação e fim de jogo
+
+Incrementar pontos ao destruir inimigos.
+
+Detectar se algum inimigo alcança a parte inferior da tela → fim de jogo.
