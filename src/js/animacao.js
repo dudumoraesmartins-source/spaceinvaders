@@ -1,12 +1,5 @@
-const adiv = document.getElementById('mydiv');
-let leftpos = 0;
 
-function movediv(timestamp) {
-  leftpos += 1;
-  adiv.style.left = leftpos + 'px';
 
-  // callback - chama a funcao para permanecer em loop
-  requestAnimationFrame(movediv);
+export default function Animacao() {
+  console.log('eu sou uma merda de animacao');
 }
-
-requestAnimationFrame(movediv);
