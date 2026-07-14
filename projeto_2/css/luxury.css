@@ -1,0 +1,29 @@
+.luxury {
+    padding: 50px;
+    width: 200px;
+    height: 350px;
+    background-color: var(--cor_green_950);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*border: 2px solid red;*/
+}
+
+.luxury h2 {
+    font-family: 'Big Shoulders', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--cor_gray_100);
+    /*border: 2px solid red;*/
+}
+
+.luxury p {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: left;
+    line-height: 23px;
+    color: var(--cor_white_transparent);
+    /*border: 2px solid red;*/
+}
+
+.luxury button {
+    color: var(--cor_green_950);
+}

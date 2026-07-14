@@ -1,0 +1,3 @@
+Arrays são apenas elementos que possuem índice numérico (tipo list lá em python)
+
+Objetos são uma coleção de chave - valor (dicionário lá em python)
