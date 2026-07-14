@@ -1,5 +1,5 @@
-import Animacao from "./js/animacao";
-import CanvasEdit from "./js/canvas";
+import Animacao from "./js/animacao.js";
+import CanvasEdit from "./js/canvas.js";
 
 
 // console.log('Eu sou JAVASCRIPT BESTA no MAIN');
